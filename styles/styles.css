@@ -1,4 +1,4 @@
-main {
+<<<<<<< HEAD main {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -32,4 +32,9 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
     padding: 15px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0;
 }
