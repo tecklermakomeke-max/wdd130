@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header,
+main,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 2rem;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+main img {
+    margin: 1rem auto;
+}
+
+main img {
+    margin: 0 auto 1.5rem;
+    width: 200px;
+    height: auto;
+    border: 3px solid steelblue;
+    padding: 5px;
+    box-shadow: 0 0 30px gray;
+    display: block;
+}
+
+main p {
+    line-height: 1.6rem;
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.state-card {
+    border: 1px solid#ccc;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: green;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+    margin: 20px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image-box img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.image-box h2 {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background-color: rgbd(255, 255, 255, 0.8);
+    padding: 0.5rem;
+    float: left;
+}
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: green;
+    color: #333;
+    float: left;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
