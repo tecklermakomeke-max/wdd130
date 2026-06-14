@@ -492,24 +492,26 @@ form button[type="submit"]:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     padding:  0 2rem;
-    margin: 4rem 0;
+    margin: 5rem auto ;
     text-align: center;
+    justify-content: center;
+    max-width: 900px;
 }
 .icon-grid img:first-of-type {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 6px solid #d9c2a3;
+    margin-top: 4px;
     border-radius: 8px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 .icon-grid img:last-of-type {
-    width: 60px;
-    height: 60px;
-    margin-top: 1rem;
+    width: 200px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
 }
 .newsletter {
     background: #f2f2f2;
